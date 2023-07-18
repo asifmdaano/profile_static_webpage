@@ -1,0 +1,224 @@
+@font-face {
+    font-family: Clicker script;
+    src: url('../Google font/Clicker Script/ClickerScript-Regular.ttf');
+}
+
+@font-face {
+    font-family: Roboto;
+    src: url('../Google font/Roboto/Roboto-Regular.ttf');
+}
+
+body {
+    background-color: #fff;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    text-align: center;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: Roboto, sans-serif;
+    font-weight: 400;
+}
+
+.container-fluid {
+    padding: 7% 15%;
+}
+
+p {
+    font-family: Papyrus, fantasy, Roboto, sans-serif;
+    font-size: 1.8rem;
+    line-height: 2;
+    color: grey
+}
+
+/* Alignment */
+
+.text-center {
+    text-align: center;
+}
+
+.text-left {
+    text-align: left;
+}
+
+/* Headings */
+
+.biggest-heading {
+    font-family: 'Clicker script', cursive, fantasy, Roboto, sans-serif;
+    font-size: 8rem;
+    font-weight: 500;
+    margin-bottom: 0;
+}
+
+.bigger-heading {
+    font-size: 3rem;
+    margin: 1rem 0;
+}
+
+.big-heading {
+    font-size: 2rem;
+}
+
+/* Colour Section */
+
+.bg-colored {
+    background-color: #E0EBE8;
+}
+
+.text-light-blue {
+    color: #66BFBF;
+}
+
+.text-dark-blue {
+    color: #1e836c;
+}
+
+/* Title section */
+
+#title .container-fluid {
+    padding: 0 15%;
+}
+
+/* Navbar */
+
+.logo {
+    width: 40%;
+    height: 40%;
+}
+
+.nav-item {
+    font-family: 'khula', sans-serif;
+    font-size: 1.2rem;
+    padding: 0 8%;
+}
+
+.nav-link:hover {
+    color: #1e836c;
+    text-decoration: underline;
+}
+
+/* Cloud Image */
+
+.cloud-img {
+    width: 20%;
+    height: 20%;
+    position: relative;
+}
+
+.right-Cloud {
+    left: 30%;
+    top: 2rem;
+}
+
+.left-Cloud {
+    right: 30%;
+    bottom: 7rem;
+}
+
+.bio {
+    font-size: 1.5rem;
+    position: relative;
+    bottom: 1.5rem;
+    margin-bottom: 0;
+}
+
+.bio-highlighter:hover {
+    text-decoration: #1e836c overline 3px;
+}
+
+.mountain {
+    width: 50rem;
+    height: auto;
+    position: relative;
+    bottom: 9rem;
+}
+
+.img-fix {
+    height: 177px;
+}
+
+/* Profile Section */
+
+.profile-img {
+    height: 10rem;
+    width: 10rem;
+}
+
+/* Skill Section */
+
+.skill-1 {
+    margin: 10% 0;
+}
+
+.skill-1-content {
+    margin-left: 16rem;
+}
+
+.code-img {
+    width: 15rem;
+    height: 15rem;
+    float: left;
+}
+
+/* Skill-2 */
+
+.chillies-img {
+    width: 15rem;
+    height: 15rem;
+    float: right;
+}
+
+/* Message Me */
+
+/* Message Me button */
+
+.btn-message-me {
+    background-color: #1e836c;
+}
+
+.btn-message-me a {
+    font-family: Papyrus;
+    font-weight: 700;
+    color: #000;
+    text-decoration: none;
+}
+
+.btn-message-me img {
+    width: 2rem;
+    height: auto;
+}
+
+.btn-message-me:hover {
+    background-color: #66BFBF;
+}
+
+.btn-message-me a:hover {
+    text-decoration: underline;
+}
+
+/* Footer */
+
+.social-icon-item {
+    display: inline;
+    font-size: 2rem;
+    padding: 0 1rem;
+}
+
+.social-icon-item:hover {
+    font-size: 3rem;
+    transition: 1000ms all;
+}
+
+.social-icon-item a:hover {
+    color: #66BFBF;
+    transition: 1000ms all;
+}
+
+#footer p {
+    font-size: 1rem;
+}
+
+.footer-span:hover {
+    color: #1e836c;
+    text-decoration: underline;
+}
